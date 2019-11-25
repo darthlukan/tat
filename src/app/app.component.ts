@@ -16,7 +16,7 @@ import { NotificationType } from './models/notification';
 })
 export class AppComponent {
   // get a reference to the IonRouterOutlet element
-  @ViewChild( IonRouterOutlet ) routerOutlet: IonRouterOutlet;
+  @ViewChild( IonRouterOutlet, {static: false} ) routerOutlet: IonRouterOutlet;
 
   constructor(
     private platform: Platform,

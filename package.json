@@ -14,7 +14,6 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-devkit/build-angular": "^0.803.19",
     "@angular/common": "^8.2.14",
     "@angular/core": "8.2.14",
     "@angular/fire": "^5.2.3",
@@ -65,11 +64,11 @@
     "node-sass": "^4.13.0",
     "rxjs": "^6.5.3",
     "sass-loader": "^8.0.0",
-    "webpack": "^4.41.2",
     "zone.js": "0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/architect": "^0.803.19",
+    "@angular-devkit/build-angular": "^0.803.19",
     "@angular-devkit/core": "^8.3.19",
     "@angular-devkit/schematics": "^8.3.19",
     "@angular/cli": "^8.3.19",
